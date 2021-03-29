@@ -29,8 +29,8 @@ Front-End repository of our group's submission for the Remote EU 2020 Wild Code 
 (Deployed Back-end: https://radiant-badlands-42962.herokuapp.com/babysitters)
 
 - Victoria Kulinkovich https://github.com/KulinkovichVA
-- Dima Piskun https://github.com/DzmitryPS
 - Alfred Castillo https://github.com/aCastilloNL
+- Dima Piskun https://github.com/DzmitryPS
 
 > WebApp made in 48 hours
 
@@ -38,16 +38,22 @@ Front-End repository of our group's submission for the Remote EU 2020 Wild Code 
 
 ```
 $ npm install
+
+$ cp .env.example .env
+$ # set values in .env file
+
+
 $ npm start
+
 ```
 
-## List of Contents
+## Table of Contents
 
 - [Install](#install)
 - [List of Contents](#list-of-contents)
 - [Purpose](#purpose)
 - [La Nurserie](#la-nurserie)
-- [Wireframes Packages and Softwares used](#wireframes-packages-and-softwares-used)
+- [Wireframes, Packages and Softwares](#wireframes-packages-and-softwares-used)
 - [Documentation](#documentation)
 
 ## Purpose
@@ -59,9 +65,7 @@ Using React, React-router-DOM, React-Icons, Functional Approach Only, Hooks, Con
 
 ## La Nurserie
 
-La Nurserie
-
-You need to go to work? Don't know what to do with your kids? Send a WhatsApp to La Nurserie! We have the solution!
+Need to go to work? Can't find a babysitter? Send a WhatsApp to La Nurserie! We have the solution for you!
 
 ## Wireframes, Packages and Softwares used
 
@@ -76,6 +80,24 @@ You need to go to work? Don't know what to do with your kids? Send a WhatsApp to
 
 ## Documentation
 
-Miro conceptual map: https://miro.com/welcomeonboard/EQkTa05Q8yHjWVmLKVydeElLFNPaHjR0ecczK5N1hogFTskwhWpqfRnaPvWxAd3J
 
+### Maps (OpenStreetMaps)
+
+Project uses OpenStreetMaps as a Geocoding API provider, it can be replaced by updating options variable in app.js
+
+### Deploy (Heroku)
+
+Project is deployed using Netlify. https://lucid-feynman-60c600.netlify.app/
+
+### Twilio
+
+To enable WhatsApp communication flow:
+
+- set up twilio whatsapp testing sandbox (https://www.twilio.com/docs/whatsapp/sandbox)
+- set up twilio studio flow by importing it from twilio/flow.json file
+- update http widgets in flow to use correct endpoint (if creating your own deployment)
+- set sandbox inbound webhook to value from trigger widget in flow
+
+Miro conceptual map: https://miro.com/welcomeonboard/EQkTa05Q8yHjWVmLKVydeElLFNPaHjR0ecczK5N1hogFTskwhWpqfRnaPvWxAd3J
 Miro workflow map: https://miro.com/app/board/o9J_lU-0zKI=/
+
