@@ -2,7 +2,7 @@
 
 ## “A little bit of help with a whole lot of love”
 
-Need to go to work? Can't find a babysitter? Send a WhatsApp to La Nurserie! We have the solution for you!
+Are you a parent or guardian? Do you struggle with options of finding who to care for your little ones? Send us a WhatsApp message at La Nurserie! We have the solution for you!
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ Need to go to work? Can't find a babysitter? Send a WhatsApp to La Nurserie! We 
 
 ## Twilio Inc / Wild Code School Hackathon
 
-Welcome to the Full Stack repository of my team's submission for the March 2021 Twilio/Wild Code School Hackathon hosted by Twilio Inc.
+Welcome to the Full Stack repository of my team's submission to the Wild Code School March 2021 Hackathon hosted by Twilio Inc.
 
 ![Javascript](https://aleen42.github.io/badges/src/javascript.svg)
 ![Twilio](https://img.shields.io/badge/API-twilio-red)
@@ -26,9 +26,11 @@ Welcome to the Full Stack repository of my team's submission for the March 2021 
 
 ## Purpose
 
-The Hackathon groups were each tasked with developing a product aimed at providing disaster relief for socially impacted areas of our global economy, i.e. climate change, mental health, equal opportunities, etc. within a 48-hour time frame.
+The Hackathon group participants were each tasked with developing a product aimed at providing disaster relief for socially impacted areas of our global economy. i.e. climate change, mental health, equal opportunity, etc. within a 48-hour time frame.
 
-Using React, React-router-DOM, React-Icons, Functional Approach Only, Hooks, Context, Styled Components, Figma and Miro as the foundation for which the UI lies upon, we have been able to merge both the Front with the Back through deployment and API calls.
+Using React.js, mongoDB, Node and Express, among a myriad of technologies (a complete list of which can be found at the end of this readme), we developed a website application integrated with WhatsApp for providing daycare assistance to parents and guardians unable to reach tutelage solutions for their children. 
+
+Twilio API, React-router-DOM, React-Icons, Functional Approach Only, Hooks, Context, Styled Components, Figma and Miro as the foundation for which the UI lies upon, we have been able to merge both the Front with the Back through deployment and API calls.
 
 ## Installation
 
@@ -44,14 +46,22 @@ $ npm start
 
 ## Wireframes, Packages & Softwares
 
-- Netlify
 - Miro
-- React
-- React Icons
-- React Hooks
-- Functional Approach Only
+- React.js
+- React Hooks & Icons (Functional Approach)
 - Styled Components
+- Node.js
+- Express.js
+- Twilio Studio API
+- mongoDB with Atlas
+- Mongoose
+- Node-Geocoder
+- Openstreetmap
+- Heroku
+- Netlify
 - Figma
+- Miro
+
 
 ## Documentation
 
