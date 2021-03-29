@@ -13,7 +13,7 @@
 
 ## Twilio Inc / Wild Code School Hackathon
 
-Welcome to the Full Stack repository of my hackathon team's submission for the March 2021 Twilio/Wild Code School Hackathon, hosted by Twilio Inc.
+Welcome to the Full Stack repository of my team's submission for the March 2021 Twilio/Wild Code School Hackathon hosted by Twilio Inc.
 
 ![Javascript](https://aleen42.github.io/badges/src/javascript.svg)
 ![Twilio](https://img.shields.io/badge/API-twilio-red)
