@@ -2,6 +2,8 @@
 
 ## “A little bit of help with a whole lot of love”
 
+Need to go to work? Can't find a babysitter? Send a WhatsApp to La Nurserie! We have the solution for you!
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -39,10 +41,6 @@ $ # set values in .env file
 $ npm start
 
 ```
-
-## La Nurserie
-
-Need to go to work? Can't find a babysitter? Send a WhatsApp to La Nurserie! We have the solution for you!
 
 ## Wireframes, Packages & Softwares
 
