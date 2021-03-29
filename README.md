@@ -2,7 +2,6 @@
 
 ## “A little bit of help with a whole lot of love”
 
-
 ## Table of Contents
 
 - [Install](#install)
@@ -12,9 +11,9 @@
 - [Wireframes, Packages and Softwares](#wireframes-packages-and-softwares-used)
 - [Documentation](#documentation)
 
-# Twilio Inc. / Wild Code School Virtual Hackathon Project
+## Twilio Inc / Wild Code School Hackathon
 
-Full Stack repository of our group's submission for the Remote EU March 2021 Wild Code School Hackathon, hosted by Twilio Inc.
+Welcome to the Full Stack repository of my hackathon team's submission for the March 2021 Twilio/Wild Code School Hackathon, hosted by Twilio Inc.
 
 ![Javascript](https://aleen42.github.io/badges/src/javascript.svg)
 ![Twilio](https://img.shields.io/badge/API-twilio-red)
@@ -23,25 +22,22 @@ Full Stack repository of our group's submission for the Remote EU March 2021 Wil
 ![React-Icons](https://img.shields.io/badge/JS-React%20Icons-Purple)
 ![Styled-Components](https://img.shields.io/badge/CSS-Styled%20Components-Pink)
 
-## Made by Wilders
-### Front-End Members:
+## Purpose
 
+The Hackathon groups were each tasked with the challenge of developing a product aimed at providing disaster relief for socially impacted areas of our global economy, i.e. climate change, mental health, equal opportunities, and etcetera, within 48 hours.
+
+Using React, React-router-DOM, React-Icons, Functional Approach Only, Hooks, Context, Styled Components, Figma and Miro as the foundation for which the UI lies upon, we have been able to merge both the Front with the Back through deployment and API calls.
+
+## Developed by Wilders
+
+### Developers:
 - Jacopo Luri https://github.com/JacopoLuri
 - Jeanloup Cayuela https://github.com/j-loup30400
 - Niko Phalen https://github.com/nphalen29
-
-(Deployed Front-end: https://lucid-feynman-60c600.netlify.app/)
-
-### Back-End Members:
-
-(Separate repository: https://github.com/aCastilloNL/TwilioHackathonBE)
-(Deployed Back-end: https://radiant-badlands-42962.herokuapp.com/babysitters)
-
 - Victoria Kulinkovich https://github.com/KulinkovichVA
-- Alfred Castillo https://github.com/aCastilloNL
 - Dima Piskun https://github.com/DzmitryPS
 
-> WebApp developed in 48-hours
+> WebApp created in 48-hours
 
 ## Installation
 
@@ -51,17 +47,9 @@ $ npm install
 $ cp .env.example .env
 $ # set values in .env file
 
-
 $ npm start
 
 ```
-
-## Purpose
-
-The Hackathon groups were each tasked with the challenge of developing a product aimed at providing disaster relief for socially impacted areas of our global economy, i.e. climate change, mental health, equal opportunities, and etcetera, within 48 hours.
-
-Using React, React-router-DOM, React-Icons, Functional Approach Only, Hooks, Context, Styled Components, Figma and Miro as the foundation for which the UI lies upon, we have been able to merge both the Front with the Back through deployment and API calls.
-
 
 ## La Nurserie
 
