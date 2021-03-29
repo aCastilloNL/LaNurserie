@@ -2,9 +2,19 @@
 
 ## “A little bit of help with a whole lot of love”
 
-# Twilio / WCS Hackaton Project
 
-Front-End repository of our group's submission for the Remote EU 2020 Wild Code School Hackathon, sponsored by Twilio.
+## Table of Contents
+
+- [Install](#install)
+- [List of Contents](#list-of-contents)
+- [Purpose](#purpose)
+- [La Nurserie](#la-nurserie)
+- [Wireframes, Packages and Softwares](#wireframes-packages-and-softwares-used)
+- [Documentation](#documentation)
+
+# Twilio Inc. / Wild Code School Virtual Hackathon Project
+
+Full Stack repository of our group's submission for the Remote EU March 2021 Wild Code School Hackathon, hosted by Twilio Inc.
 
 ![Javascript](https://aleen42.github.io/badges/src/javascript.svg)
 ![Twilio](https://img.shields.io/badge/API-twilio-red)
@@ -14,7 +24,6 @@ Front-End repository of our group's submission for the Remote EU 2020 Wild Code 
 ![Styled-Components](https://img.shields.io/badge/CSS-Styled%20Components-Pink)
 
 ## Made by Wilders
-
 ### Front-End Members:
 
 - Jacopo Luri https://github.com/JacopoLuri
@@ -32,9 +41,9 @@ Front-End repository of our group's submission for the Remote EU 2020 Wild Code 
 - Alfred Castillo https://github.com/aCastilloNL
 - Dima Piskun https://github.com/DzmitryPS
 
-> WebApp made in 48 hours
+> WebApp developed in 48-hours
 
-## Install
+## Installation
 
 ```
 $ npm install
@@ -46,15 +55,6 @@ $ # set values in .env file
 $ npm start
 
 ```
-
-## Table of Contents
-
-- [Install](#install)
-- [List of Contents](#list-of-contents)
-- [Purpose](#purpose)
-- [La Nurserie](#la-nurserie)
-- [Wireframes, Packages and Softwares](#wireframes-packages-and-softwares-used)
-- [Documentation](#documentation)
 
 ## Purpose
 
@@ -85,9 +85,10 @@ Need to go to work? Can't find a babysitter? Send a WhatsApp to La Nurserie! We 
 
 Project uses OpenStreetMaps as a Geocoding API provider, it can be replaced by updating options variable in app.js
 
-### Deploy (Heroku)
+### Deployment (Heroku & Netlify)
 
-Project is deployed using Netlify. https://lucid-feynman-60c600.netlify.app/
+Fullstack Deployment via Netlify: https://lucid-feynman-60c600.netlify.app/
+Backend Deployment: https://radiant-badlands-42962.herokuapp.com/babysitters
 
 ### Twilio
 
