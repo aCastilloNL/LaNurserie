@@ -4,11 +4,11 @@
 
 ## Table of Contents
 
-- [Install](#install)
-- [List of Contents](#list-of-contents)
+- [Installation](#installation)
+- [Table of Contents](#table-of-contents)
 - [Purpose](#purpose)
 - [La Nurserie](#la-nurserie)
-- [Wireframes, Packages and Softwares](#wireframes-packages-and-softwares-used)
+- [Wireframes, Packages & Softwares](#wireframes-packages-and-softwares-used)
 - [Documentation](#documentation)
 
 ## Twilio Inc / Wild Code School Hackathon
@@ -24,20 +24,9 @@ Welcome to the Full Stack repository of my hackathon team's submission for the M
 
 ## Purpose
 
-The Hackathon groups were each tasked with the challenge of developing a product aimed at providing disaster relief for socially impacted areas of our global economy, i.e. climate change, mental health, equal opportunities, and etcetera, within 48 hours.
+The Hackathon groups were each tasked with developing a product aimed at providing disaster relief for socially impacted areas of our global economy, i.e. climate change, mental health, equal opportunities, etc. within a 48-hour time frame.
 
 Using React, React-router-DOM, React-Icons, Functional Approach Only, Hooks, Context, Styled Components, Figma and Miro as the foundation for which the UI lies upon, we have been able to merge both the Front with the Back through deployment and API calls.
-
-## Developed by Wilders
-
-### Developers:
-- Jacopo Luri https://github.com/JacopoLuri
-- Jeanloup Cayuela https://github.com/j-loup30400
-- Niko Phalen https://github.com/nphalen29
-- Victoria Kulinkovich https://github.com/KulinkovichVA
-- Dima Piskun https://github.com/DzmitryPS
-
-> WebApp created in 48-hours
 
 ## Installation
 
@@ -55,7 +44,7 @@ $ npm start
 
 Need to go to work? Can't find a babysitter? Send a WhatsApp to La Nurserie! We have the solution for you!
 
-## Wireframes, Packages and Softwares used
+## Wireframes, Packages & Softwares
 
 - Netlify
 - Miro
@@ -67,7 +56,6 @@ Need to go to work? Can't find a babysitter? Send a WhatsApp to La Nurserie! We 
 - Figma
 
 ## Documentation
-
 
 ### Maps (OpenStreetMaps)
 
@@ -90,3 +78,13 @@ To enable WhatsApp communication flow:
 Miro conceptual map: https://miro.com/welcomeonboard/EQkTa05Q8yHjWVmLKVydeElLFNPaHjR0ecczK5N1hogFTskwhWpqfRnaPvWxAd3J
 Miro workflow map: https://miro.com/app/board/o9J_lU-0zKI=/
 
+## Developed by Wilders
+
+### Developers:
+- Jacopo Luri https://github.com/JacopoLuri
+- Jeanloup Cayuela https://github.com/j-loup30400
+- Niko Phalen https://github.com/nphalen29
+- Victoria Kulinkovich https://github.com/KulinkovichVA
+- Dima Piskun https://github.com/DzmitryPS
+
+> WebApp created in 48-hours
