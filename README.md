@@ -2,7 +2,7 @@
 
 ## “A little bit of help with a whole lot of love”
 
-Are you a parent or guardian? Do you struggle with options of finding who to care for your little ones? Send us a WhatsApp message at La Nurserie! We have the solution for you!
+Are you a parent or guardian? Do you struggle with options of finding who to care for your little ones? Send us a WhatsApp message over at La Nurserie! We have the solution for you!
 
 ## Table of Contents
 
