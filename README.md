@@ -30,8 +30,6 @@ The Hackathon group participants were each tasked with developing a product aime
 
 Using React.js, mongoDB, Node and Express, among a myriad of technologies (a complete list of which can be found at the end of this readme), we developed a website application integrated with WhatsApp for providing daycare assistance to parents and guardians unable to reach tutelage solutions for their children. 
 
-Twilio API, React-router-DOM, React-Icons, Functional Approach Only, Hooks, Context, Styled Components, Figma and Miro as the foundation for which the UI lies upon, we have been able to merge both the Front with the Back through deployment and API calls.
-
 ## Installation
 
 ```
@@ -56,18 +54,15 @@ $ npm start
 - mongoDB with Atlas
 - Mongoose
 - Node-Geocoder
-- Openstreetmap
+- Open Street Maps
 - Heroku
 - Netlify
 - Figma
 - Miro
 
-
-## Documentation
-
 ### Maps (OpenStreetMaps)
 
-Project uses OpenStreetMaps as a Geocoding API provider, it can be replaced by updating options variable in app.js
+This project uses OpenStreetMaps as a Geocoding API provider, it can be replaced by updating the options variable in app.js
 
 ### Deployment (Heroku & Netlify)
 
@@ -78,21 +73,25 @@ Backend Deployment: https://radiant-badlands-42962.herokuapp.com/babysitters
 
 To enable WhatsApp communication flow:
 
-- set up twilio whatsapp testing sandbox (https://www.twilio.com/docs/whatsapp/sandbox)
-- set up twilio studio flow by importing it from twilio/flow.json file
-- update http widgets in flow to use correct endpoint (if creating your own deployment)
-- set sandbox inbound webhook to value from trigger widget in flow
+- set up Twilio WhatsApp testing sandbox (https://www.twilio.com/docs/whatsapp/sandbox)
+- set up Twilio studio flow by importing it from twilio/flow.json file
+- update http widgets in flow to use the correct endpoint (if creating your own deployment)
+- set sandbox inbound webhook to the value from trigger widget in flow
 
 Miro conceptual map: https://miro.com/welcomeonboard/EQkTa05Q8yHjWVmLKVydeElLFNPaHjR0ecczK5N1hogFTskwhWpqfRnaPvWxAd3J
 Miro workflow map: https://miro.com/app/board/o9J_lU-0zKI=/
 
+
+## Documentation
+
 ## Developed by Wilders
 
 ### Developers:
-- Jacopo Luri https://github.com/JacopoLuri
-- Jeanloup Cayuela https://github.com/j-loup30400
-- Niko Phalen https://github.com/nphalen29
+- Alfred Castillo https://github.com/aCastilloNL
 - Victoria Kulinkovich https://github.com/KulinkovichVA
+- Jeanloup Cayuela https://github.com/j-loup30400
 - Dima Piskun https://github.com/DzmitryPS
+- Jacopo Luri https://github.com/JacopoLuri
+- Niko Phalen https://github.com/nphalen29
 
 > WebApp created in 48-hours
