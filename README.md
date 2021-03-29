@@ -8,10 +8,10 @@ Front-End repository of our group's submission for the Remote EU 2020 Wild Code 
 
 ![Javascript](https://aleen42.github.io/badges/src/javascript.svg)
 ![Twilio](https://img.shields.io/badge/API-twilio-red)
-![OpenStreetMap](https://img.shields.io/badge/map-OpenStreetMap-green)
 ![React](https://img.shields.io/badge/React-blue)
-![React-Router-Map](https://img.shields.io/badge/React-Router-Map)
-![Function-Approach-Only](https://img.shields.io/badge/funcional-approach-only)
+![React-Router-Map](https://img.shields.io/badge/JS-Router%20Router%20Dom-green)
+![React-Icons](https://img.shields.io/badge/JS-React%20Icons-Purple)
+![Styled-Components](https://img.shields.io/badge/CSS-Styled%20Components-Pink)
 
 ## Made by Wilders
 
@@ -21,13 +21,16 @@ Front-End repository of our group's submission for the Remote EU 2020 Wild Code 
 - Jeanloup Cayuela https://github.com/j-loup30400
 - Niko Phalen https://github.com/nphalen29
 
+(Deployed Front-end: https://lucid-feynman-60c600.netlify.app/)
+
 ### Back-End Members:
 
 (Separate repository: https://github.com/aCastilloNL/TwilioHackathonBE)
+(Deployed Back-end: https://radiant-badlands-42962.herokuapp.com/babysitters)
 
 - Victoria Kulinkovich https://github.com/KulinkovichVA
-- Dima Piskun https://github.com/DzmitryPS
 - Alfred Castillo https://github.com/aCastilloNL
+- Dima Piskun https://github.com/DzmitryPS
 
 > WebApp made in 48 hours
 
@@ -35,18 +38,22 @@ Front-End repository of our group's submission for the Remote EU 2020 Wild Code 
 
 ```
 $ npm install
+
 $ cp .env.example .env
 $ # set values in .env file
 
+
+$ npm start
+
 ```
 
-## List of Contents
+## Table of Contents
 
 - [Install](#install)
 - [List of Contents](#list-of-contents)
 - [Purpose](#purpose)
 - [La Nurserie](#la-nurserie)
-- [Wireframes Packages and Softwares used](#wireframes-packages-and-softwares-used)
+- [Wireframes, Packages and Softwares](#wireframes-packages-and-softwares-used)
 - [Documentation](#documentation)
 
 ## Purpose
@@ -58,11 +65,10 @@ Using React, React-router-DOM, React-Icons, Functional Approach Only, Hooks, Con
 
 ## La Nurserie
 
-La Nurserie
+Need to go to work? Can't find a babysitter? Send a WhatsApp to La Nurserie! We have the solution for you!
 
 ## Wireframes, Packages and Softwares used
 
-- Node.js
 - Netlify
 - Miro
 - React
@@ -74,6 +80,7 @@ La Nurserie
 
 ## Documentation
 
+
 ### Maps (OpenStreetMaps)
 
 Project uses OpenStreetMaps as a Geocoding API provider, it can be replaced by updating options variable in app.js
@@ -84,9 +91,13 @@ Project is deployed using Netlify. https://lucid-feynman-60c600.netlify.app/
 
 ### Twilio
 
-To enable whatsapp communication flow:
+To enable WhatsApp communication flow:
 
 - set up twilio whatsapp testing sandbox (https://www.twilio.com/docs/whatsapp/sandbox)
 - set up twilio studio flow by importing it from twilio/flow.json file
 - update http widgets in flow to use correct endpoint (if creating your own deployment)
 - set sandbox inbound webhook to value from trigger widget in flow
+
+Miro conceptual map: https://miro.com/welcomeonboard/EQkTa05Q8yHjWVmLKVydeElLFNPaHjR0ecczK5N1hogFTskwhWpqfRnaPvWxAd3J
+Miro workflow map: https://miro.com/app/board/o9J_lU-0zKI=/
+
