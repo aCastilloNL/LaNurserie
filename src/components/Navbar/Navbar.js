@@ -25,12 +25,12 @@ const StyledNavBar = styled.div`
 const StyledLinkContainer = styled.div`
     display: none;
     height: 100%;
-    padding: 1vw;
+    padding: 1.5vw;
 
     @media (min-width: ${theme.media.phone}) {
         display: flex;
         align-items: center;
-        gap: ${theme.padding.double};
+        gap: 1.5rem;
 
         a {
            text-decoration: none;
