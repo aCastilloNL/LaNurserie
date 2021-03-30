@@ -15,7 +15,7 @@ Are you a parent or guardian? Do you struggle with options of finding who to car
 
 ## Twilio Inc / Wild Code School Hackathon
 
-Welcome to the Full Stack repository of my team's submission to the Wild Code School March 2021 Hackathon hosted by Twilio Inc.
+Welcome to the Full Stack repository of my team's submission to the March 2021 Wild Code School Hackathon hosted by Twilio Inc.
 
 ![Javascript](https://aleen42.github.io/badges/src/javascript.svg)
 ![Twilio](https://img.shields.io/badge/API-twilio-red)
