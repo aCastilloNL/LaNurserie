@@ -206,23 +206,23 @@ const Babysitter = () => {
                 <img src={MainImg} alt="Babysitter" />
                 <div>
                     <h1>Are you a babysitter?</h1>
-                    <p>Do you want to be enlisted as a babysitter, hundreds of parents need your help!!</p>
+                    <p>Would you like to be listed as a legal caretaker? Hundreds of parents need your help!</p>
                 </div>
             </StyledTopSection>
             <StyledForm onSubmit={handleForm}>
                 <StyledFormContainer>
-                    <h2>Send your contacts to be enlisted in our team:</h2>
+                    <h2>Fill in the form for a chance to join our team:</h2>
                     <div>
-                        <label for="firstName">First Name</label>
+                        <label htmlFor="firstName">First Name</label>
                         <input onChange={(e) => handleFirstName(e)} type="text" id="firstName" required />
                     </div>
                     <div>
-                        <label for="lastName">Last Name</label>
+                        <label htmlFor="lastName">Last Name</label>
                         <input onChange={(e) => handleLastName(e)} type="text" id="lastName" required />
                     </div>
                     <StyledFormSection>
                         <div>
-                            <label for="gender">Gender</label>
+                            <label htmlFor="gender">I am a...</label>
                             <select onChange={(e) => handleGender(e)} type="select" id="gender" required>
                                 <option value="none">Select one...</option>
                                 <option value="woman">Woman</option>
@@ -231,49 +231,49 @@ const Babysitter = () => {
                             </select>
                         </div>
                         <div>
-                            <label for="age">Age</label>
+                            <label htmlFor="age">Age</label>
                             <input onChange={(e) => handleAge(e)} type="number" id="age" required />
                         </div>
                     </StyledFormSection>
                     <div>
-                        <label for="email">Email</label>
+                        <label htmlFor="email">Email</label>
                         <input onChange={(e) => handleEmail(e)} type="email" id="email" required />
                     </div>
                     <div>
-                        <label for="phoneNumber">Telephone</label>
+                        <label htmlFor="phoneNumber">Telephone</label>
                         <input onChange={(e) => handlePhone(e)} type="text" id="phoneNumber" required />
                     </div>
                     <div>
-                        <label for="city">City</label>
+                        <label htmlFor="city">City</label>
                         <input onChange={(e) => handleCity(e)} type="text" id="city" required />
                     </div>
                     <div>
-                        <label for="street">Street</label>
+                        <label htmlFor="street">Street</label>
                         <input onChange={(e) => handleStreet(e)} type="text" id="street" required />
                     </div>
                     <StyledFormSection>
                         <div>
-                            <label for="postCode">Postcode</label>
+                            <label htmlFor="postCode">Postcode</label>
                             <input onChange={(e) => handlePostcode(e)} type="text" id="postCode" required />
                         </div>
                         <div>
-                            <label for="buildingNumber">Building Number</label>
+                            <label htmlFor="buildingNumber">Building Number</label>
                             <input onChange={(e) => handleBuildingNumber(e)} type="number" id="buildingNumber" placeholder="Optional" />
                         </div>
                     </StyledFormSection>
                     <div>
-                        <label for="avaiability">Avaiability</label>
+                        <label htmlFor="avaiability">Availability</label>
                         <input onChange={(e) => handleAvaiability(e)} type="date" id="avaiability" required />
                     </div>
                     <div>
-                        <label for="skills">Your Skills</label>
+                        <label htmlFor="skills">Skills</label>
                         <input onChange={(e) => handleSkills(e)} type="text" id="skills" placeholder="Optional" />
                     </div>
                     <div>
-                        <label for="socialMedia">Social Media</label>
+                        <label htmlFor="socialMedia">Social Media</label>
                         <input onChange={(e) => handleSocialMedia(e)} type="text" id="socialMedia" placeholder="Optional" />
                     </div>
-                    <button>Add</button>
+                    <button onClick={() => alert('Thank you for submitting your application. One of our staff members will get back to you shortly.')}>Add</button>
                 </StyledFormContainer>
             </StyledForm>
         </>
