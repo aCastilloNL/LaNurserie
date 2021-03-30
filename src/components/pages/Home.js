@@ -182,7 +182,7 @@ const Home = () => {
             <StyledLinkContainer>
                 <div>
                     <h1>La Nurserie</h1>
-                    <p>A bit of help and a lot of love</p>
+                    <p>A little bit of help with a whole lot of love</p>
                 </div>
                 <img src={Banner} alt="Banner" />
             </StyledLinkContainer>

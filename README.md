@@ -6,11 +6,11 @@ Are you a parent or guardian? Do you struggle with options of finding who to car
 
 ## Table of Contents
 
-- [Installation](#installation)
+- [La Nurserie](#la-nurserie)
 - [Table of Contents](#table-of-contents)
 - [Purpose](#purpose)
-- [La Nurserie](#la-nurserie)
-- [Wireframes, Packages & Softwares](#wireframes-packages-and-softwares-used)
+- [Installation](#installation)
+- [Wireframes, Packages & Softwares](#wireframes-packages-&-softwares)
 - [Documentation](#documentation)
 
 ## Twilio Inc / Wild Code School Hackathon
@@ -60,15 +60,11 @@ $ npm start
 - Figma
 - Miro
 
+## Documentation
+
 ### Maps (OpenStreetMaps)
 
 This project uses OpenStreetMaps as a Geocoding API provider, it can be replaced by updating the options variable in app.js
-
-### Deployment (Heroku & Netlify)
-
-Fullstack Deployment via Netlify: https://lucid-feynman-60c600.netlify.app/
-
-Backend Deployment: https://radiant-badlands-42962.herokuapp.com/babysitters
 
 ### Twilio
 
@@ -82,8 +78,11 @@ To enable WhatsApp communication flow:
 Miro conceptual map: https://miro.com/welcomeonboard/EQkTa05Q8yHjWVmLKVydeElLFNPaHjR0ecczK5N1hogFTskwhWpqfRnaPvWxAd3J
 Miro workflow map: https://miro.com/app/board/o9J_lU-0zKI=/
 
+### Deployment (Heroku & Netlify)
 
-## Documentation
+Fullstack Deployment via Netlify: https://lucid-feynman-60c600.netlify.app/
+
+Backend Deployment: https://radiant-badlands-42962.herokuapp.com/babysitters
 
 ## Developed by Wilders
 
