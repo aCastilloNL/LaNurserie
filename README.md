@@ -67,6 +67,7 @@ This project uses OpenStreetMaps as a Geocoding API provider, it can be replaced
 ### Deployment (Heroku & Netlify)
 
 Fullstack Deployment via Netlify: https://lucid-feynman-60c600.netlify.app/
+
 Backend Deployment: https://radiant-badlands-42962.herokuapp.com/babysitters
 
 ### Twilio
