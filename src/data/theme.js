@@ -37,7 +37,7 @@ export const theme = {
     padding: {
         small: "2px",
         standard: "8px",
-        double: "16px",
+        double: "1.5rem",
     },
     margin: {
         small: "2px",

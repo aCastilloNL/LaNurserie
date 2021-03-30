@@ -13,6 +13,7 @@ import { BsStarFill } from "react-icons/bs";
 import { BsStarHalf } from "react-icons/bs";
 import { BsStar } from "react-icons/bs";
 
+//Customer Testmonials
 const StyledCard = styled.div`
     width: 100%;
     height: 330px;

@@ -5,6 +5,7 @@ import { Context } from "../../context/Context";
 import { theme } from "../../data/theme";
 import Logo from "../../Images/tavola1.png";
 
+//Header nav bar
 const StyledNavBar = styled.div`
     width: 100%;
     height: 116px;
@@ -20,13 +21,14 @@ const StyledNavBar = styled.div`
     }
 `;
 
+//Header navbar links: Home & Babysitter
 const StyledLinkContainer = styled.div`
     display: none;
     height: 100%;
+    padding: 1vw;
 
     @media (min-width: ${theme.media.phone}) {
         display: flex;
-        
         align-items: center;
         gap: ${theme.padding.double};
 
