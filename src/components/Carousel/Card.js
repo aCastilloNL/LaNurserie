@@ -66,7 +66,7 @@ const Card = ({ imageNumber }) => {
                     ? (<>
                             <img src={firstPortrait} alt="Reviewer" />
                             <h2>Angelina J.</h2>
-                            <p>"Amazing service, my babysitter is an incredible person, my kids love her so much and she also teach them french!"</p>
+                            <p>"Amazing service. Our nanny is an incredible human being. My kids love her and they are even learning French from her!"</p>
                             <div>
                                 <BsStarFill />
                                 <BsStarFill />
@@ -79,7 +79,7 @@ const Card = ({ imageNumber }) => {
                         ? (<>
                             <img src={secondPortrait} alt="Reviewer number 2" />
                             <h2>Anna M.</h2>
-                            <p>"This service saves my life, I was about to quit my job, recommended to every parent in need of a qualified babysitter."</p>
+                            <p>"This service saved my life. I was on the verge of leaving my job until I found La Nurserie. I recommend it to every parent in need of a qualified babysitter."</p>
                             <div>
                                 <BsStarFill />
                                 <BsStarFill />
@@ -91,7 +91,7 @@ const Card = ({ imageNumber }) => {
                         : (<>
                             <img src={thirdPortrait} alt="Reviewer umber 3" />
                             <h2>Stephen K.</h2>
-                            <p>"Good Job! Good service! My babysitter is really patient and very funny! Recommended!"</p>
+                            <p>"Excellent service! My babysitter is very patient and downright hilarious. I highly recommend La Nurserie!"</p>
                             <div>
                                 <BsStarFill />
                                 <BsStarFill />
