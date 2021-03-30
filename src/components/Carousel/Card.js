@@ -92,7 +92,7 @@ const Card = ({ imageNumber }) => {
                         : (<>
                             <img src={thirdPortrait} alt="Reviewer umber 3" />
                             <h2>Stephen K.</h2>
-                            <p>"Excellent service! My babysitter is very patient and downright hilarious. I highly recommend La Nurserie!"</p>
+                            <p>"Excellent service. My babysitter is very patient and downright hilarious. I highly recommend La Nurserie!"</p>
                             <div>
                                 <BsStarFill />
                                 <BsStarFill />

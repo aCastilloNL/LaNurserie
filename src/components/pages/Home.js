@@ -73,10 +73,11 @@ const StyledServiceContainer = styled.div`
     flex-direction: column;
     align-items: center;
     gap: ${theme.padding.double};
+    padding-bottom: 1.5vh;
 
     h2 {
         font-size: ${theme.fontSize.medium};
-        line-height: ${theme.lineHeight.medium};
+        line-height: ${theme.lineHeight.large};
         text-align: center;
     }
 
@@ -106,7 +107,7 @@ const StyledServiceContainer = styled.div`
  `;
 
 const StyledInstructionContainer = styled.div`
-    padding: ${theme.padding.standard};
+    padding: ${theme.padding.double};
     width:100%;
     background-color: ${theme.color.primary};
     display: flex;
@@ -168,11 +169,6 @@ const StyledReviewsContainer = styled.div`
 
 const Home = () => {
     const [carouselImage, setCarouselImage] = useState(0);
-    // const carouselImageToggle = () => {
-    //     carouselImage === 2
-    //         ? setCarouselImage(0)
-    //         : setCarouselImage(carouselImage + 1)
-    // };
     const firstImageToggle = () => setCarouselImage(0);
     const secondImageToggle = () => setCarouselImage(1);
     const thirdImageToggle = () => setCarouselImage(2);
@@ -191,23 +187,23 @@ const Home = () => {
                 <img src={Girls} alt="girls" />
                 <h1>Find A Babysitter</h1>
                 <p>Do you need a Babysitter for now?</p>
-                <p>Follow the instruction below!</p>
+                <p>Follow the instructions below:</p>
             </StyledServiceContainer>
             <StyledInstructionContainer>
                 <div>
-                    <p><span>1)</span> Send <span>"Join division-agree"</span> to <span>+1 (415) 523-8886</span> from your WhatsApp number.</p>
+                    <p><span>1)</span> Text <span>"Join division-agree"</span> to <span>+1 (415) 523-8886</span> from your WhatsApp number.</p>
                     <img src={screenshot1} alt="first instruction" />
                 </div>
                 <div>
-                    <p><span>2)</span> Ask for a babysitter!</p>
+                    <p><span>2)</span> Ask for a babysitter.</p>
                     <img src={screenshot2} alt="second instruction" />
                 </div>
                 <div>
-                    <p><span>3)</span> La Nurserie will ask your location:</p>
+                    <p><span>3)</span> La Nurserie will ask for your location:</p>
                     <img src={screenshot3} alt="third instruction" />
                 </div>
                 <div>
-                    <p><span>4)</span> Confirm your location with <span>Yes</span> and receive the contacts from your assigned Babysitter!</p>
+                    <p><span>4)</span> Confirm your location with <span>Yes</span> and receive the contact information from your assigned Babysitter.</p>
                     <img src={screenshot4} alt="fourth instruction" />
                 </div>
             </StyledInstructionContainer>
