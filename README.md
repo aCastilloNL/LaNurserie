@@ -44,9 +44,8 @@ $ npm start
 
 ## Wireframes, Packages & Softwares
 
-- Miro
-- React.js
-- React Hooks & Icons (Functional Approach)
+- React
+- React Hooks & Icons
 - Styled Components
 - Node.js
 - Express.js
